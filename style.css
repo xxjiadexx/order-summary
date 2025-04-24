@@ -1,0 +1,36 @@
+body {
+    background: 
+        url("images/pattern-background-desktop.svg") no-repeat center top, 
+        hsl(225, 100%, 94%); 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    background-color: white;;
+    margin: 0;
+    width: 100%;
+    max-width: 375px;
+    border-radius: 8px;
+}
+
+.card-header {
+    width: 100%;
+    max-width: 375px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
+}
+
+.card-header .hero {
+    width: 100%; 
+    display: block; 
+}
