@@ -9,6 +9,7 @@ body {
     align-items: center;
     text-align: center;
     height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .card {
@@ -33,4 +34,60 @@ body {
 .card-header .hero {
     width: 100%; 
     display: block; 
+}
+
+h1 {
+    margin: 5px;
+    padding: 5px;
+}
+
+p {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 5px;
+}
+
+.mini {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start ;
+    background-color: hsl(225, 100%, 98%); 
+    width: auto;
+    max-width: 375px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.mini img {
+    width: 15%;
+    height: 15%;
+    margin: 10px;
+    
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.plan h2 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.plan p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.mini .change {
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 700;
 }
